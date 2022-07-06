@@ -8,7 +8,8 @@ import { TicketBookingComponent } from './ticket-booking/ticket-booking.componen
 
 const routes: Routes = [
   {path:'',component:MainComponent},
- {path:'redbus',component:BusComponent, children:[{path:"busTitle",component:BusItemComponent,children:[{path:"deck",component:DeckComponent}]}]},
+  {path:'Home',component:MainComponent},
+ {path:'search',component:BusComponent, children:[{path:"busTitle",component:BusItemComponent}]},
  {path:'deck',component:DeckComponent}
 ];
 

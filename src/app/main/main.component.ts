@@ -30,7 +30,7 @@ export class MainComponent implements OnInit {
     this.toData=this.toVal.nativeElement.innerText;
     this.inputDate1=this.inputDate.nativeElement.value;
     if(this.fromData !== "" && this.toData !== "" && this.inputDate1 !==""){
-      this.router.navigate(['./redbus']);
+      this.router.navigate(['./search']);
     }
   }
   showName(){

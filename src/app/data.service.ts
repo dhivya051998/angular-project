@@ -15,7 +15,6 @@ export class DataService {
       arrival:"06:35",
       rating:"175",
       fare:"INR 999",
-      seatAvailable:"12 seat Available",
       star:"4.2"
     },
     {
@@ -26,7 +25,6 @@ export class DataService {
       arrival:"06:30",
       rating:"146",
       fare:"INR 799",
-      seatAvailable:"12 seat Available",
       star:"3.9"
     }
     , {
@@ -37,7 +35,6 @@ export class DataService {
       arrival:"06:40",
       rating:"128",
       fare:"INR 600",
-      seatAvailable:"12 seat Available",
       star:"3.7"
     },
     {
@@ -48,7 +45,6 @@ export class DataService {
       arrival:"06:15",
       rating:"115",
       fare:"INR 1560",
-      seatAvailable:"12 seat Available",
       star:"3.4"
     },
     {
@@ -59,7 +55,6 @@ export class DataService {
       arrival:"05:00",
       rating:"146",
       fare:"INR 1290",
-      seatAvailable:"12 seat Available",
       star:"2.9"
     },
     {
@@ -70,14 +65,15 @@ export class DataService {
       arrival:"05:00",
       rating:"130",
       fare:"INR 1500",
-      seatAvailable:"12 seat Available",
       star:"4.2"
     }
   ]
   placeName:any=["Tenkasi","Tirunelveli","Kadayam"];
   place:any=["Chennai","Madurai","Mumbai"];
-  newArray1:any=[1,2,3,4,5,6,7,8,9,10,11,12];
+  newArray1:any=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
   proceedShow:boolean=false;
+  proceedDetail:boolean=false;
   placeName1:boolean=false;
   placeName2:boolean=false;
+  newArray:number[]=[];
 }

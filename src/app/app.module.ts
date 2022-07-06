@@ -14,6 +14,7 @@ import { ProceedComponent } from './proceed/proceed.component';
 import { CustomDirective } from './custom.directive';
 import { FormsModule } from '@angular/forms';
 import { FilterPipe } from './filter.pipe';
+import { BookingDetailComponent } from './booking-detail/booking-detail.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { FilterPipe } from './filter.pipe';
     DeckComponent,
     ProceedComponent,
     CustomDirective,
-    FilterPipe
+    FilterPipe,
+    BookingDetailComponent
   ],
   imports: [
     BrowserModule,

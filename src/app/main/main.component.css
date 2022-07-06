@@ -44,6 +44,7 @@ button:hover{
 }
 label{
     font-size: 12px;
+    padding-left: 4px;
 }
 a{
     color: #fff;
@@ -67,11 +68,15 @@ a{
     height: 20px;
     width: 120px;
     cursor: pointer;
+    display: flex;
+    align-items: center;
 }
 .toVal{
     height: 20px;
     width: 120px;
     cursor: pointer; 
+    display: flex;
+    align-items: center;
 }
 .allName1{
     height: 110px;
@@ -85,6 +90,7 @@ a{
     justify-content: space-evenly;
     cursor: pointer;
     border: 1px solid #aaa;
+
     
 }
 .placeName{

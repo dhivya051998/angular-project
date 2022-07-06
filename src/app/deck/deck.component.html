@@ -4,10 +4,9 @@
             <div class="img"></div>
         </div>
         <div class="content2">
-                <div class="seat" *ngFor="let y of newArray; index as i" (click)="booking($event,i)">
+                <div class="seat" *ngFor="let y of newArray; index as i" (click)="booking($event,i)" [title]="i">
                     <div class="small"></div>
                 </div>
-           
         </div>
     </div>
     <div class="seatdetail">

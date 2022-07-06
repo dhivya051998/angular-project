@@ -51,15 +51,16 @@ a{
 }
 .allName{
     height: 110px;
-    width: 130px;
+    width: 129px;
     background-color: #ffffff;
     position: absolute;
-    top: 44px;
-    left: 0px;
+    top: 43px;
+    left: -1px;
     display:flex;
     flex-direction: column;
     justify-content: space-evenly;
     cursor: pointer;
+    border: 1px solid #aaa;
     
 }
 .fromVal{
@@ -74,15 +75,16 @@ a{
 }
 .allName1{
     height: 110px;
-    width: 130px;
+    width: 129px;
     background-color: #ffffff;
     position: absolute;
-    top: 44px;
-    left: 0px;
+    top: 43px;
+    left: -1px;
     display:flex;
     flex-direction: column;
     justify-content: space-evenly;
     cursor: pointer;
+    border: 1px solid #aaa;
     
 }
 .placeName{

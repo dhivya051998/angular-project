@@ -72,7 +72,6 @@ export class DataService {
   place:any=["Chennai","Madurai","Mumbai"];
   newArray1:any=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
   proceedShow:boolean=false;
-  proceedDetail:boolean=false;
   placeName1:boolean=false;
   placeName2:boolean=false;
   newArray:number[]=[];

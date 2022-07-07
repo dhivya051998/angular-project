@@ -1,7 +1,8 @@
-<div class="container">
-    <span class="material-symbols-outlined">
+<div><div class="container" *ngIf="show">
+    <span class="material-symbols-outlined" (click)="remove()">
         cancel
         </span>
     <h3>Booking Details</h3>
     <p *ngFor="let array of this.data.newArray">Seat No : L{{array}}</p>
+</div>
 </div>

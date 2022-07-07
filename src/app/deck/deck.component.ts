@@ -28,5 +28,6 @@ export class DeckComponent implements OnInit {
     this.data.proceedShow=true;
     // ele.removeEventListener('click',this.booking)
   }
+  
 
 }

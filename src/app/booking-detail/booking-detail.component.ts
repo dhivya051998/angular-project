@@ -8,11 +8,14 @@ import { DataService } from '../data.service';
 })
 export class BookingDetailComponent implements OnInit {
 
-
+  show:any=true;
   constructor(public data:DataService) { }
 
   ngOnInit(): void {
      
+  }
+  remove(){
+    this.show=false;
   }
 
 }

@@ -1,3 +1,9 @@
+![image](https://user-images.githubusercontent.com/82437897/180728040-06a4f9f7-35f8-4ca9-90d0-a176eab836d0.png)
+![image](https://user-images.githubusercontent.com/82437897/180728153-d995444e-a503-499d-ac60-bde884727396.png)
+![image](https://user-images.githubusercontent.com/82437897/180728776-158944bd-8103-4d2b-a0ca-3b2e5c493ac2.png)
+![image](https://user-images.githubusercontent.com/82437897/180728867-74046ffc-2742-4a20-ab6a-b004bf166d6d.png)
+![image](https://user-images.githubusercontent.com/82437897/180728911-324ff59e-65b8-4ebf-8702-97ca1b9ccbe8.png)
+
 # TicketBooking
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.1.

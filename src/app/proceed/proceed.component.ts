@@ -11,14 +11,14 @@ export class ProceedComponent implements OnInit {
   @Input() dataele!:any;
   @Input() element!:any;
   index:any;
-  show:any=false;
+  // show:any=true;
   constructor(public data:DataService) { }
   ngOnInit(): void {
   }
   hide(e:any,dataele:any){
    this.index=this.dataele;
    this.data.newArray.push(this.index);
-   this.show=true;
+  //  this.show=false;
    this.data.proceedShow=false;
    this.element.style.backgroundColor="#80808078";
    this.element.style.pointerEvents='none';

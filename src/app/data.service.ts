@@ -4,7 +4,9 @@ import { Injectable } from '@angular/core';
   providedIn: 'root'
 })
 export class DataService {
-
+  fromPlace!:string;
+  toPlace!:string;
+  date!:Date;
   constructor() { }
   busDetails:object[]=[
     {

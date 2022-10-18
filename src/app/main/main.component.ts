@@ -25,11 +25,16 @@ export class MainComponent implements OnInit {
     this.place=this.data.placeName;
     this.place1=this.data.place;
   }
-  display(){
-    this.fromData=this.fromVal.nativeElement.innerText;
-    this.toData=this.toVal.nativeElement.innerText;
+  display(from:string,to:string){
+    // this.fromData=this.fromVal.nativeElement.innerText;
+    // this.toData=this.toVal.nativeElement.innerText;
+    this.fromData = from;
+    this.toData = to;
     this.inputDate1=this.inputDate.nativeElement.value;
     if(this.fromData !== "" && this.toData !== "" && this.inputDate1 !==""){
+      this.data.fromPlace = this.fromData;
+      this.data.toPlace = this.toData;
+      this.data.date = this.inputDate1; 
       this.router.navigate(['./search']);
     }
   }
